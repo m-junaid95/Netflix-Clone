@@ -1,6 +1,5 @@
 {
   "name": "netflix-clone",
-  "homepage": "https://m-junaid95.github.io/Netflix-Clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +7,6 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "gh-pages": "^4.0.0",
     "movie-trailer": "^2.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -17,8 +15,6 @@
     "react-youtube": "^7.11.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
